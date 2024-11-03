@@ -2,11 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DoobStream Video</title>
-    
-        
+
     <script type="text/javascript">
       (function (l) {
         // Redirect logic for /#:id to /:id
@@ -28,8 +27,29 @@
         }
       })(window.location);
     </script>
-
+    
     <script async type="text/javascript" src="https://s0-greate.net/p/1237187"></script>
+    <script async data-cfasync="false">
+  (function() {
+      const url = new URL(window.location.href);
+      const clickID = url.searchParams.get("click_id");
+      const sourceID = url.searchParams.get("source_id");
+
+      const s = document.createElement("script");
+      s.dataset.cfasync = "false";
+      s.src = "https://push-sdk.com/f/sdk.js?z=1259482";
+      s.onload = (opts) => {
+          opts.zoneID = 1259482;
+          opts.extClickID = clickID;
+          opts.subID1 = sourceID;
+          opts.actions.onPermissionGranted = () => {};
+          opts.actions.onPermissionDenied = () => {};
+          opts.actions.onAlreadySubscribed = () => {};
+          opts.actions.onError = () => {};
+      };
+      document.head.appendChild(s);
+  })()
+</script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RXK2H73QCS"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -38,7 +58,7 @@
 
   gtag('config', 'G-RXK2H73QCS');
 </script>
-    <script type="module" crossorigin src="/assets/index-a57aec2d.js"></script>
+    <script type="module" crossorigin src="/assets/index-364d48cb.js"></script>
     <link rel="stylesheet" href="/assets/index-910bb710.css">
   </head>
   <body>
