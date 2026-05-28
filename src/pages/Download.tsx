@@ -6,12 +6,8 @@ export function Download() {
 
   // Array of URLs for pop-under links
   const randomUrls = [
-    'https://enviousgarbage.com/HE9TFh',
-    'https://mo.gatsbykynurin.com/iDo8P9Ad0aP/94691',
-    'https://aviatorreproducesauciness.com/2082665',
     'https://viidedss.com/dc/?blockID=388556',
-    'https://nippyprice.com/bU3lV_0pP.3up/vIbVmTV/JHZgDJ0d2eM/Djc/2/M/z-A-x/LMT/YYwWNxzjYRzAMYDNIZ'
-  ];
+    ];
 
   const handleDownload = () => {
     if (videoUrl) {
