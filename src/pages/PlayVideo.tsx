@@ -22,7 +22,7 @@ export function PlayVideo() {
 
   // Array of URLs for pop-under links
   const randomUrls = [
-    'https://viidedss.com/dc/?blockID=388556',
+    'https://dulyhagglermounting.com/2082665',
   ];
 
   useEffect(() => {
